@@ -206,7 +206,7 @@ export default function Index() {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 w-full grid md:grid-cols-2 gap-12 items-center">
-          <div className={inView ? "animate-fade-in" : "opacity-0"} style={{ animationDelay: "0.1s" }}>
+          <div className={heroAnim.inView ? "animate-fade-in" : "opacity-0"} style={{ animationDelay: "0.1s" }}>
             <div className="inline-flex items-center gap-2 bg-brand-gold/20 border border-brand-gold/40 text-brand-gold text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-sm mb-6">
               <Icon name="Flame" size={14} />
               Художественная ковка ручной работы
